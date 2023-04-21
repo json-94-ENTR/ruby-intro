@@ -15,3 +15,12 @@
 # rand(1..6)
 # Log output to the screen with puts:
 # puts "Hello, world"
+
+#you need to name your variables what they are; like dice 1 and dice 2
+
+die1=rand(1...6)
+die2=rand(1...6)
+total=die1 + die2
+puts "The first die is #{die1}"
+puts "The second die is #{die2}"
+puts "The total is #{total}"
